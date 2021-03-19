@@ -36,6 +36,7 @@ class LineFollower:
 ev3 = EV3Brick()
 
 def log(msg):
+    # prueba
     ev3.screen.print(msg)
     time.sleep(2.0)
 
