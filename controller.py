@@ -45,18 +45,8 @@ class ControllerPID:
         f = open(self.logFile,mode)
         f.write(msg+'\n')
         f.close()
-"""
-def test():
-    c = ControllerP(76,6,100)
 
-    print ' '.join([str(i) for i in c.getPower(76)])
-    time.sleep(1.0)
-    print ' '.join([str(i) for i in c.getPower(6)])
-    time.sleep(2.0)
-    print ' '.join([str(i) for i in c.getPower(41)])
 
-test()
-"""
 
 
 
